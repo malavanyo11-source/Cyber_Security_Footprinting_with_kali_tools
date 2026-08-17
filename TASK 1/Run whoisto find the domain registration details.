@@ -1,0 +1,28 @@
+Using WHOIS in Footprinting in Cybersecurity
+1. Command Executed: whois networkwalks.com
+🔍 Key Findings from WHOIS
+•	Registrar: GoDaddy.com, LLC (IANA ID 146) → Identifies where the domain is registered and managed.
+•	Domain Lifecycle:
+1.	Created: 15 January 2000
+2.	Updated: 27 December 2025
+3.	Expiry: 15 January 2027 → Shows the domain is long standing (over 25 years old), which can indicate credibility or legacy infrastructure.
+•	Registrant Details:
+1.	Name: Domain Administrator
+2.	Organization: NameFind (Tempe, Arizona, US)
+3.	Email: admin@namefind.com
+4.	Phone: +1.7813736856 → Sensitive information that attackers could exploit for phishing or social engineering.
+•	Nameservers:
+1.	NS1.NAMEFIND.COM
+2.	NS2.NAMEFIND.COM → Indicates DNS is managed by NameFind, not directly by the organization.
+•	Domain Status Codes:
+1.	clientDeleteProhibited
+2.	clientRenewProhibited
+3.	clientTransferProhibited
+4.	clientUpdateProhibited → Protections that prevent unauthorized deletion, transfer, or modification — a good security measure.
+•	DNSSEC: unsigned → DNSSEC is not enabled, which could be a potential security gap.
+⚡ Why This Matters in Footprinting
+1.	Infrastructure Mapping: WHOIS reveals registrar, nameservers, and lifecycle information, helping attackers or defenders understand domain management.
+2.	Attack Surface Identification: Exposed registrant details (email, phone) can be leveraged for phishing or social engineering.
+3.	Security Awareness: Lack of DNSSEC means DNS responses aren’t cryptographically validated, leaving room for DNS spoofing attacks.
+4.	Defensive Measures: Organizations should enable privacy protection, keep WHOIS data minimal, and enable DNSSEC to reduce exposure.
+
