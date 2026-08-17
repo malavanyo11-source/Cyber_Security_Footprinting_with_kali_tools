@@ -1,1 +1,19 @@
+🛠️ Using WAFW00F in Footprinting in Cybersecurity
+Command Executed: wafw00f networkwalks.com
+🔍 What WAFW00F Does
+1.	WAF Detection: Fingerprints whether a website is behind a Web Application Firewall.
+2.	Reconnaissance: Identifies the type of WAF, helping ethical hackers understand what protections are in place.
+3.	Security Awareness: Confirms whether a WAF is deployed, which is vital for defenders.
+📑 Your Result Explained
+1.	WAF Detected: ModSecurity (SpiderLabs).
+2.	Requests Made: 2 (WAFW00F probes the site with crafted requests to see how the firewall responds).
+3.	Implication: The site is actively filtering and blocking malicious traffic. ModSecurity is widely used to protect against SQL injection, XSS, and other web attacks.
+⚡ Why This Matters in Footprinting
+1.	For Attackers:
+	Knowing a WAF is present means they must find ways to bypass or evade it.
+	It raises the difficulty of exploiting vulnerabilities directly.
+2.	For Defenders:
+	Confirms that ModSecurity is deployed.
+	WAF rules should be kept updated to block new attack patterns.
+	Combine WAF with patch management and monitoring for layered security.
 
