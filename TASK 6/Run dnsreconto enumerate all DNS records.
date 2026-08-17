@@ -1,1 +1,20 @@
+🛠️ Using DNSRecon in Footprinting in Cybersecurity
+Command Executed: dnsrecon -d networkwalks.com
+🔍 Key Findings from DNSRecon
+1.	SOA Record: ns6135.hostgator.com (IP: 50.87.144.87) → Identifies the Start of Authority server, showing HostGator is the hosting provider.
+2.	NS Records:
+o	ns6136.hostgator.com → 192.232.216.131
+o	ns6135.hostgator.com → 50.87.144.87 → Confirms HostGator nameservers, with Bind version 9.16.23-RH.
+3.	MX Record: mail.networkwalks.com → 192.232.216.135 → Shows the mail server is hosted on the same IP as the website.
+4.	A Record: networkwalks.com → 192.232.216.135 → Confirms the domain resolves to the same IP you found with nslookup.
+5.	TXT Records:
+o	SPF: v=spf1 +a +mx +ip4:50.87.144.87 +include:websitewelcome.com ~all → Defines authorized mail senders, reducing email spoofing.
+o	Google site verification token. → Confirms Google Search Console integration.
+6.	SRV Records: _autodiscover._tcp.networkwalks.com → multiple cpanelemaildiscovery.cpanel.net servers on port 443. → Supports email auto discovery, tied to cPanel hosting.
+7.	DNSSEC: No answer (DNSSEC not enabled). → Potential security gap, as DNS responses aren’t cryptographically validated.
+⚡ Why This Matters in Footprinting
+1.	Infrastructure Mapping: Confirms HostGator hosting, Apache server, WordPress CMS, and mail handled on the same IP.
+2.	Attack Surface: Exposed mail server and SPF records could be tested for misconfigurations.
+3.	Defensive Awareness: Lack of DNSSEC is a weakness; enabling it would strengthen domain security.
+4.	Reconnaissance Value: TXT and SRV records reveal integrations (Google, cPanel) that attackers could target.
 
