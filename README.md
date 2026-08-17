@@ -27,3 +27,17 @@ The aim of this program is to:
 👤 **Author**: Michael Tetteh  
 🎓 **Coursework**: Cybersecurity Diploma — Footprinting Assignment  
 🔗 **GitHub Repo**: Documentation of commands, outputs, and analysis
+# 📑 Table of Contents
+
+- [Introduction](README.md#-introduction)
+- [Purpose](README.md#-purpose)
+- [Tools & Tasks](README.md#-tools--tasks-executed-in-order)
+- [Learning Outcomes](README.md#-learning-outcomes)
+- [Detailed Reports](#-detailed-reports)
+  - [WHOIS Report](reports/01-WHOIS.md)
+  - [WhatWeb Report](reports/02-WhatWeb.md)
+  - [nslookup Report](reports/03-nslookup.md)
+  - [cURL Report](reports/04-cURL.md)
+  - [WAFW00F Report](reports/05-WAFW00F.md)
+  - [DNSRecon Report](reports/06-DNSRecon.md)
+- [Conclusion](reports/Conclusion.md)
