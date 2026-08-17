@@ -1,1 +1,20 @@
+🛠️ Using WhatWeb in Footprinting in Cybersecurity
+Command Executed: whatweb networkwalks.com
+🔍 Key Findings from WhatWeb
+1.	Web Server: Apache → The site is hosted on an Apache HTTP server.
+2.	CMS & Plugins: WordPress 7.0.4 with WordPress Download Manager 3.3.58 → Reveals the content management system and plugin versions, which are critical for vulnerability checks.
+3.	Frontend Frameworks: Bootstrap 7.0.4, JQuery 3.7.1 → Shows the UI frameworks used, useful for identifying client side libraries.
+4.	Cookies: __wpdm_client (HttpOnly) → Indicates session management and plugin related cookies.
+5.	Headers: Permissions policy, referrer policy, x endurance cache level, x nginx cache → Security and caching headers that give insight into server configuration.
+6.	IP Address: 192.232.216.135 (United States) → The resolved IP of the server, useful for mapping infrastructure.
+7.	Other Identifiers:
+	Google Tag Manager (analytics/tracking)
+	Open Graph Protocol (social media integration)
+	Email exposed: info@networkwalks.com
+	Title: “Networkwalks Academy”
+⚡ Why This Matters in Footprinting
+1.	Attack Surface Mapping: Knowing it runs WordPress 7.0.4 + plugins lets you check for known CVEs (vulnerabilities).
+2.	Reconnaissance: IP address, server type, and headers help build a profile of the hosting environment.
+3.	Social Engineering Risk: Exposed email (info@networkwalks.com) could be targeted.
+4.	Defensive Awareness: The organization should keep WordPress and plugins updated, and review exposed headers/cookies.
 
