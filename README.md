@@ -12,7 +12,7 @@ The aim of this program is to:
 ## 🛠️ Tools & Tasks (Executed in Order)
 1. **[WHOIS](ca://s?q=WHOIS_tool_in_cybersecurity)** → Collected domain registration details, registrar, lifecycle dates, and ownership information.  
 2. **[WhatWeb](ca://s?q=WhatWeb_tool_in_cybersecurity)** → Fingerprinted web technologies (Apache server, WordPress CMS, plugins, frameworks, cookies).  
-3. **[nslookup](ca://s?q=nslookup_tool_in_cybersecurity)** → Resolved the domain to its IP address (192.232.216.135).  
+3. **[nslookup](ca://s?q=nslookup_tool_in_cybersecurity)** → Resolved the domain to its IP address (xxx.232..xxx).  
 4. **[cURL](ca://s?q=cURL_headers_in_cybersecurity)** → Retrieved HTTP response headers to analyze server type, cookies, caching, and policies.  
 5. **[WAFW00F](ca://s?q=WAFW00F_tool_in_cybersecurity)** → Detected Web Application Firewall protection (ModSecurity).  
 6. **[DNSRecon](ca://s?q=DNSRecon_tool_in_cybersecurity)** → Enumerated DNS records (SOA, NS, MX, TXT, SRV) and confirmed DNSSEC status.  
