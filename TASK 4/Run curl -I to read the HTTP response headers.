@@ -1,1 +1,17 @@
+🛠️ Using cURL in Footprinting in Cybersecurity
+Command Executed: curl -I https://networkwalks.com
+🔍 Key Headers & Their Meaning
+1.	Server: Apache → Confirms the web server software in use.
+2.	Permissions-Policy: Includes Google, Cloudflare, hCaptcha, etc. → Shows which external services are allowed to issue or redeem private state tokens (used for authentication/anti bot measures).
+3.	Link: Points to WordPress REST API (wp-json) and shortlink. → Confirms the site is running WordPress, and exposes API endpoints.
+4.	Set-Cookie: __wpdm_client (secure, HttpOnly). → Indicates session management via WordPress Download Manager plugin.
+5.	Referrer-Policy: no-referrer-when-downgrade. → Controls how much referrer info is passed between sites.
+6.	Caching Headers: x-endurance-cache-level: 0, x-nginx-cache: WordPress. → Shows caching configuration, useful for performance and security analysis.
+7.	Content-Type: text/html; charset=UTF-8. → Standard HTML response.
+8.	Date: Sun, 16 Aug 2026 22:08:37 GMT. → Timestamp of the server’s response.
+⚡ Why This Matters in Footprinting
+1.	Technology Identification: Confirms Apache + WordPress stack.
+2.	Security Awareness: Reveals cookies, caching, and policies in place.
+3.	Attack Surface Mapping: Exposed API endpoints (wp-json) could be probed by attackers.
+4.	Defensive Awareness: Organizations should review headers to ensure best practices (e.g., strong referrer policies, secure cookies, DNSSEC).
 
