@@ -25,7 +25,7 @@ The aim of this program is to:
 - Learned how attackers use this data for reconnaissance, and how defenders mitigate exposure.  
 ---
 👤 **Author**: Michael Tetteh  
-🎓 **Coursework**: Cybersecurity Diploma — Footprinting Assignment  
+🎓 **Coursework**: Cybersecurity — Footprinting Assignment  
 🔗 **GitHub Repo**: Documentation of commands, outputs, and analysis
 # 📑 Table of Contents
 
